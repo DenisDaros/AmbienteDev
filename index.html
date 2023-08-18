@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-sclae=1.0">
+    <title>Gerenciador de senhas seguras</title>
+</head>
+<body>
+    <div>
+        <h1>Validator</h1>
+        <form id="validation">
+
+          <input type="text" placeholder="Insira aqui o valor" id="input">
+    
+          <select name="campo" id="option">
+            <option value="cpf">CPF</option>
+            <option value="hexColor">Cor Hexadecimal</option>
+            <option value="email">email</option>
+            <option value="uuid">UUID v4</option>
+            <option value="url">url</option>
+          </select>
+
+          <button id="button">Check</button>
+        </form>
+    
+        <h3 id="answer">Enter the value, choosing the option and click validate</p>
+    </div>
+    <br>
+    <div>
+        <button id="password">Generate secure password</button>
+        <h2>xxxx-xxxx-xxxx-xxxx</h2>
+        <p id="copy">Click here to copy!!</p>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

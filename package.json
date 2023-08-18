@@ -1,0 +1,23 @@
+{
+  "name": "ambiente_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.2",
+    "validator": "^13.11.0",
+    "vite": "^4.4.9"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.47.0"
+  }
+}
